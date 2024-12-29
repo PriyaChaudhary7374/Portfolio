@@ -3,11 +3,13 @@
 .container {
   display: flex;
   flex-direction: column;
+  flex: 1; /* Allows containers to take equal width */
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
+  padding: 30px 24px;
+  overflow: auto; /* Ensures content is scrollable if necessary */
+  box-sizing: border-box; /* Includes padding in size calculations */
 }
 
 .image {
@@ -21,8 +23,9 @@
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
+  text-align: left;
 }
 
 .skills {

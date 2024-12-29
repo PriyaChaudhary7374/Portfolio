@@ -1,26 +1,18 @@
 [
   {
-    "title": "Project A",
+    "title": "Educational Website",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": " Built a highly scalable Full Stack Educational Website encompassing diverse features such as Interactive textbooks, Discussion forums, Quizzes, Techno articles, and a user-friendly note-taking system, etc.",
+    "skills": ["React", "Express", "Node", "REST APIs"],
+    "demo": "https://64d8d6c1ab6c480007ff934b--steady-toffee-4d65c7.netlify.app/",
+    "source": "https://github.com/PriyaChaudhary7374/Edu-website"
   },
   {
-    "title": "Project B",
+    "title": "Purge Unused Images",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": " Developed an npm package to eliminate redundant images, saving 8 hours per month on manual image management. It analyzes the code files to detect image references comparing them against the images stored in project's directories and removes the images which are unused.",
+    "skills": ["Javascript", "Shell-Scripting"],
+    "demo": "https://www.npmjs.com/package/purge-unused-images",
+    "source": "https://www.npmjs.com/package/purge-unused-images"
   }
 ]
